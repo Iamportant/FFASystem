@@ -221,7 +221,6 @@ public final class FFASystem extends JavaPlugin {
         try {
             inv.clear();
 
-            // 恢复主背包物品
             if (kitSection.isConfigurationSection("inventory")) {
                 ConfigurationSection invSection = kitSection.getConfigurationSection("inventory");
                 if (invSection != null) {
